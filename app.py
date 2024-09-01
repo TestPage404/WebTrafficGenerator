@@ -63,5 +63,5 @@ while True:
         print(f"Grabbing: {url}. IP: {socket.gethostbyname(fqdn)}")
         print(response)
     except:
-        print(f"Grabbing: {url}. IP: {socket.gethostbyname(fqdn)}")
+        print(f"Grabbing: {url}. IP: Unresolved")
         print("Skipped")
